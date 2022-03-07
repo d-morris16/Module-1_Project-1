@@ -1,0 +1,204 @@
+.wrap {
+	display: flex;
+	justify-content: space-between;
+}
+.wrapnav{
+	display: flex;
+	justify-content: space-between;
+}
+
+body {
+	background-color: ghostwhite;
+	margin: 0px;
+}
+
+header {
+	background-color: deepskyblue;
+}
+
+
+nav {
+	display: flex;
+}
+a:link {
+  text-decoration: none;
+}
+a {
+	color: black;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    margin-left: 125px;
+}
+ul {
+	display:  flex;
+	list-style-type: none;
+	font-size: 23px;
+	font-family: Comic Sans MS;
+}
+
+li{
+	margin: 25px;
+}
+
+#lvl1 {
+	display: flex;
+	border-style: solid;
+	border-color: coral;
+	margin-top: 15px;
+	margin-left: 80px;
+	margin-right: 40px;
+}
+
+#left{
+	width: 40%;
+	padding: 30px;
+}
+#custom {
+	font-size: 40px;
+	padding: 30px;
+	text-align: center;
+	font-family:  Comic Sans MS;
+}
+
+#right {
+	width: 60%;
+}
+#lion {
+	width: 100%;
+} 
+#lvl2 {
+	display: flex;
+}
+p.lvl2 {
+	padding: 10px;
+}
+#title {
+	border-style: solid;
+	border-color: coral;
+	font-family: Comic Sans MS;
+	padding: 17px;
+	width: 50%;
+}
+
+#testimonials {
+	border-style: solid;
+	border-color: coral;
+	font-family: Comic Sans MS;
+	padding: 17px;
+	width: 50%;
+}
+#quote {
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 60px;
+}
+
+#lvl3 {
+	display: flex;
+	margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 45px;
+}
+
+#why {
+	margin: 50px;
+	font-family: Comic Sans MS;
+}
+.whychoose {
+	width: 100%;
+	height: 40%;
+	border-style: solid;
+	border-color: coral;
+}
+
+.nowrap {
+	
+}
+.boxes {
+	width: 25%;
+	margin-left: 20px;
+    margin-right: 20px;
+    font-family: Comic Sans MS;
+}
+
+@media only screen and (max-width: 768px){
+	.wrapnav{
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+	.wrap {
+	display: flex;
+	justify-content: space-between;
+				}
+	nav {
+	flex-wrap: wrap;
+			}
+
+	#logo {
+    display: block;
+    align-items: center;
+    margin-left: 60px;
+    width: 100%;
+			}
+
+	ul {
+	display: block;
+	list-style-type: none;
+	font-size: 20px;
+	font-family: Comic Sans MS;
+}
+
+#lvl1 {
+	flex-wrap: wrap;
+	border-style: solid;
+	border-color: coral;
+}
+
+#custom {
+	font-size: 20px;
+	padding: 30px;
+	text-align: center;
+	font-family:  Comic Sans MS;
+}
+
+#left{
+	width: 100%;
+	padding: 0px;
+}
+
+
+#right {
+	width: 100%;
+}
+#lion {
+	width: 100%;
+} 
+
+#lvl2 {
+	flex-wrap: wrap;
+  justify-content: center;
+}
+
+#quote {
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 60px;
+		}
+
+#lvl3 {
+	flex-wrap: wrap;
+			}
+
+.boxes {
+	width: 100%;
+	margin-left: 15px;
+  margin-right: 33px;
+  font-family: Comic Sans MS;
+}
+
+}
+
